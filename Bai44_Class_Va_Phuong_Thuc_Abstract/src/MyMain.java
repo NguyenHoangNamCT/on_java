@@ -8,9 +8,9 @@ public class MyMain {
 		
 //		Hinh hinh = new Hinh(); Không được, bị lỗi vì nó là abstract
 		
-		Diem diem = new Diem(td1);
-		Rectangle rectangle = new Rectangle(td2, 5, 3);
-		Circle circle = new Circle(td3, 5);
+		Hinh diem = new Diem(td1);
+		Hinh rectangle = new Rectangle(td2, 5, 3);
+		Hinh circle = new Circle(td3, 5);
 		
 		double dienTichDiem = diem.tinhDienTich();
 		System.out.println("Dien tich diem la: " + dienTichDiem);
