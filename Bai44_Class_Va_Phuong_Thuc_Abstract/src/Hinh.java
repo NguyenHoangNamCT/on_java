@@ -1,6 +1,6 @@
 
 public abstract class Hinh {
-	ToaDo toaDo;
+	private ToaDo toaDo;
 
 	public Hinh(ToaDo toaDo) {
 		super();

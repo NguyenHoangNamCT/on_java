@@ -20,6 +20,12 @@ public class MyMain {
 		
 		double dienTichHinhChuNhat = rectangle.tinhDienTich();
 		System.out.println("Dien tich hinh chu nhat la: " + dienTichHinhChuNhat);
+	
+//		circle.phuongThucRiengCuaCircle(); lỗi nếu muốn dùng phương thức riêng thì khi khai báo khai báo riêng luôn ví dụ Circle circle = new Circle(td3, 5);
+		Circle circle1 = new Circle(td3, 5);
+		circle1.phuongThucRiengCuaCircle();
+//		System.out.println("Ban kinh cua circle la: " + circle.getR()); //loi luon vi getter setter van goi la phuong thuc rieng
+		System.out.println("Ban kinh cua circle1 la: " + circle1.getR());
 	}
 
 }

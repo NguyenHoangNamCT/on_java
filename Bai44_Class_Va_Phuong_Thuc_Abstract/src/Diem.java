@@ -11,4 +11,8 @@ public class Diem extends Hinh{
 		return 1;
 	}
 	
+	public void phuongThucRiengCuaDiem() {
+		System.out.println("Day la phuong thuc rieng cua Diem");
+	}
+	
 }

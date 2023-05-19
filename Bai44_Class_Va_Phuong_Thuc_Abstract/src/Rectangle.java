@@ -29,4 +29,8 @@ public class Rectangle extends Hinh{
 		return dai*rong;
 	}
 	
+	public void phuongThucRiengCuaRectangle() {
+		System.out.println("Day la phuong thuc rieng cua Rectangle");
+	}
+	
 }

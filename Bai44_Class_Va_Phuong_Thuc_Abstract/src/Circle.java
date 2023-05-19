@@ -12,5 +12,19 @@ public class Circle extends Hinh{
 		return Math.PI*r*r;
 	}
 	
+	public void phuongThucRiengCuaCircle() {
+		System.out.println("Day la phuong thuc rieng cua circle");
+	}
+
+	public double getR() {
+		return r;
+	}
+
+	public void setR(double r) {
+		this.r = r;
+	}
+	
+	
+	
 	
 }
