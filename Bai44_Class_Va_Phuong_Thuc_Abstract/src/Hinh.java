@@ -16,4 +16,8 @@ public abstract class Hinh {
 	}
 	
 	public abstract double tinhDienTich();
+	
+	public void hehe() {
+		System.out.println("Toi co phuong thuc binh thuong ne hihi");
+	}
 }
